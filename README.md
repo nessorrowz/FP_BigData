@@ -261,7 +261,7 @@ KAFKA_TOPIC=my_topic_name
 ```
 Gantilah "my_topic_name" sesuai dengan nama topik yang digunakan di aplikasi Kafka pribadi.
 
-3. 🐳 Jalankan dengan Docker Compose
+### 3. 🐳 Jalankan dengan Docker Compose
 ```bash
 docker-compose up --build
 ```
@@ -272,7 +272,7 @@ Jika ingin membersihkan container dan volume:
 docker-compose down --volumes
 ```
 
-🌐 API Endpoint
+### 🌐 API Endpoint
 Setelah service jalan, akses dokumentasi API di:
 
 ```bash

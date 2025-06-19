@@ -102,7 +102,24 @@ flowchart TD
 ```
 
 ## Tech Stack
+Tech stack yang dipilih:
 
+    - Python (FastAPI) untuk backend
+    - PostgreSQL untuk database
+    - Kafka + Zookeeper untuk streaming pipeline
+    - Semua dijalankan melalui Docker Compose
+
+Kita sudah siapkan dan jalankan docker-compose.yml:
+    
+    - Container: app, postgres, zookeeper, kafka
+    - Service dependencies sudah ditentukan
+
+Folder app/ diisi:
+
+    - main.py → menjalankan FastAPI
+    - database.py → koneksi ke PostgreSQL
+    - config.py → load .env via BaseSettings
+    
 ## EDA
 
 ```

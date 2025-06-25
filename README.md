@@ -1,9 +1,3 @@
-# YAAAAAAA
-
-1. `docker-compose up -d`
-2. `http://localhost:9001`
-
-
 # FP_BigData
 
 **Kelompok 10**
